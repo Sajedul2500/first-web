@@ -1,0 +1,28 @@
+.banner{
+    display: flex;
+    background-color: aqua;
+}
+
+.banner-content{
+    flex: 2;
+    text-align: center;
+}
+
+.banner-image{
+    flex: 1;
+}
+
+.banner-image img{
+    width: 100%;
+}
+
+.banner-content button{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner-content button:hover{
+    background-color: blue;
+}
